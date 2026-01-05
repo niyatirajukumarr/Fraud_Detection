@@ -1,31 +1,38 @@
-# Fraud Detection with Incomplete & Delayed Data
+# \# Fraud Detection with Incomplete \& Delayed Data
 
-## Problem
-Detect fraudulent transactions early when limited data is available and
-update the risk score as delayed signals arrive, while explaining every decision.
+# 
 
-## Solution Overview
-- Early-stage fraud detection using partial transaction data
-- Dynamic risk score updates when delayed features become available
-- Explainable predictions using SHAP
-- Deployed as an interactive web app
+# \## Problem
 
-## Architecture
-1. Early fraud model (LightGBM)
-2. Delayed fraud model with richer signals
-3. Risk update logic combining both stages
-4. Gradio UI for live demonstration
+# Detect fraudulent transactions early with limited data and update
 
-## Tech Stack
-- Python
-- LightGBM
-- SHAP
-- FastAPI
-- Gradio
-- Hugging Face Spaces
+# risk scores as delayed information arrives.
 
-## Demo Flow
-1. Enter basic transaction details → get early risk
-2. Add delayed information → updated risk score
-3. See transparent fraud decision
+# 
+
+# \## Solution
+
+# \- Early fraud detection with partial data
+
+# \- Risk score updates when delayed features arrive
+
+# \- Explainable decisions using SHAP
+
+# \- Deployed using Gradio on Hugging Face Spaces
+
+# 
+
+# \## Tech Stack
+
+# \- Python
+
+# \- LightGBM
+
+# \- SHAP
+
+# \- FastAPI
+
+# \- Gradio
+
+
 
