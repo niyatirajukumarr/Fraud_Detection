@@ -1,10 +1,7 @@
 gradio
-pandas
 numpy
 scikit-learn
 lightgbm
 joblib
-shap
-fastapi
-uvicorn
+
 
