@@ -3,5 +3,7 @@ numpy
 scikit-learn
 lightgbm
 joblib
+huggingface_hub
+
 
 
